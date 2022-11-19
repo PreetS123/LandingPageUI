@@ -1,0 +1,63 @@
+.about_main{
+     display: flex;
+     width: 70%;
+     height: fit-content;
+     justify-content: space-around;
+     align-items: center;
+     gap: 2%;
+}
+
+.about{
+   display: flex;
+   flex-direction: column;
+   float: left;
+    justify-content: space-around;
+    flex: 4;
+    
+}
+.about h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+.about h2 span{
+    font-weight: 900;
+
+}
+.about p{
+    color: rgb(77, 76, 76);
+    font-size: 18px;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+}
+
+.getStarted button{
+    height: 50px;
+    width: 50%;
+    border-radius:20px;
+    background-color: maroon;
+    color: rgb(240, 207, 207);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    padding: 2%;
+    box-shadow: rgba(36, 36, 163, 0.25) 0px 50px 100px -20px,
+                rgba(129, 19, 19, 0.3) 0px 30px 60px -30px;
+    transition: all 0.8s;
+}
+.getStarted button:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+     width: 90%;
+     height: fit-content;
+     font-size: 30px;
+     font-weight: 900;
+     letter-spacing: 2px;
+     padding: 3%;
+    
+}
+
+.imgdiv{
+    flex: 3;
+}
+
