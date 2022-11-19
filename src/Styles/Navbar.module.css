@@ -1,0 +1,136 @@
+.main_nav {
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  min-height: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid red; */
+  /* padding: 1%; */
+}
+svg{
+  width: 100px;
+  height:50px;
+}
+.middlediv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+.middlediv p:hover {
+  cursor: pointer;
+  color: #f8640a;
+}
+
+.btnbx {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.btnbx button {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 2%;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}
+
+.btnbx :first-child {
+  background: none;
+  border: none;
+  color: rgb(36, 35, 35);
+}
+
+.btnbx :last-child {
+  border: 1px solid #f8640a;
+  background-color: #fff;
+  color: #f8640a;
+  border-radius: 20px;
+  width: 150px;
+}
+
+.btnbx :last-child:hover {
+  background-color: #f8640a;
+  color: white;
+}
+.hamburger_menu{
+ display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .main_nav{
+    justify-content: space-between;
+    gap:5px;
+  }
+  .logo{
+    flex:2;
+  }
+  .middlediv{
+    flex:4;
+    font-size: 14px;
+    letter-spacing:0.1px;
+    gap:8px;
+  }
+  .btnbx{
+    flex:3;
+    gap:10px;
+  }
+
+  .btnbx button{
+    font-size: 12px;
+    font-weight: 400;
+    gap: 8px;
+    width: 50px;
+    height: fit-content;
+    padding: 0.5%;
+    letter-spacing: 0.2px;
+  }
+
+  .btnbx:last-child{
+     width: 40px !important;
+     padding: 0.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main_nav{
+    justify-content: space-between;
+    gap:5px;
+  }
+  .logo{
+    flex: 4;
+  }
+  .logo svg{
+    width: 80px;
+  }
+  .btnbx {
+    display: none;
+  }
+ .middlediv{
+  display: none;
+ }
+  .hamburger_menu{
+    display: block;
+    flex:4;
+  }
+  
+  .hamburger_menu button{
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid #f8640a;
+    color: #f8640a;
+    font-size: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    
+  }
+  
+
+}
