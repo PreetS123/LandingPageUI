@@ -8,7 +8,7 @@ export const About = () => {
         <div>
           <h2>
             Want anything to be
-            <br /> easy with <span>LaslesVPN.</span>
+             easy with <span>LaslesVPN.</span>
           </h2>
         </div>
         <div>
