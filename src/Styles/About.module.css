@@ -62,7 +62,7 @@
 .bottom_main {
   margin: 20px 0px;
   width: 80%;
-  height: fit-content;
+  height:80px;
   display: flex;
   gap: 20px;
   justify-content: space-around;
@@ -158,11 +158,12 @@
 
   .bottom_main {
     width: 100%;
+    height: fit-content;
     flex-direction: column;
   }
   .bottom_one {
     width: 80%;
-    height: 50px;
+    height: 70px;
     padding: 1.5%;
     border: 1px solid rgb(167, 166, 166);
   }
@@ -207,6 +208,7 @@
 
   .bottom_main {
     width: 100%;
+    height: fit-content;
     flex-direction: column;
   }
 
