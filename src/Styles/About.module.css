@@ -1,150 +1,229 @@
-.about_main{
-     display: flex;
-     width: 70%;
-     height: fit-content;
-     justify-content: space-around;
-     align-items: center;
-     gap: 2%;
+.about_main {
+  display: flex;
+  width: 70%;
+  height: fit-content;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2%;
 }
 
-.about{
-   display: flex;
-   flex-direction: column;
-   float: left;
-    justify-content: space-around;
-    flex: 4;
-    
+.about {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  justify-content: space-around;
+  flex: 4;
 }
-.about h2{
-    font-size: 30px;
-    font-weight: 700;
-    color: rgb(71, 71, 71);
+.about h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(71, 71, 71);
 }
-.about h2 span{
-    font-weight: 900;
-
+.about h2 span {
+  font-weight: 900;
 }
-.about p{
-    color: rgb(77, 76, 76);
-    font-size: 18px;
-    letter-spacing: 1px;
-    flex-wrap: wrap;
+.about p {
+  color: rgb(77, 76, 76);
+  font-size: 18px;
+  letter-spacing: 1px;
+  flex-wrap: wrap;
 }
 
-.getStarted button{
-    height: 50px;
-    width: 50%;
-    border-radius:20px;
-    background-color: maroon;
-    color: rgb(240, 207, 207);
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 1px;
-    border: 1px solid white;
-    padding: 2%;
-    box-shadow: rgba(36, 36, 163, 0.25) 0px 50px 100px -20px,
-                rgba(129, 19, 19, 0.3) 0px 30px 60px -30px;
-    transition: all 0.8s;
+.getStarted button {
+  height: 50px;
+  width: 50%;
+  border-radius: 20px;
+  background-color: maroon;
+  color: rgb(240, 207, 207);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: 1px solid white;
+  padding: 2%;
+  box-shadow: rgba(36, 36, 163, 0.25) 0px 50px 100px -20px,
+    rgba(129, 19, 19, 0.3) 0px 30px 60px -30px;
+  transition: all 0.8s;
 }
-.getStarted button:hover{
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-     width: 90%;
-     height: fit-content;
-     font-size: 30px;
-     font-weight: 900;
-     letter-spacing: 2px;
-     padding: 3%;
-    
-}
-
-.imgdiv{
-    flex: 3;
+.getStarted button:hover {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  width: 90%;
+  height: fit-content;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding: 3%;
 }
 
+.imgdiv {
+  flex: 3;
+}
+
+.bottom_main {
+  margin: 20px 0px;
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.bottom_one {
+  height: 70%;
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  border-right: 1px solid gray;
+  font-weight: 500;
+}
+.bottom_one p {
+  color: rgb(155, 153, 153);
+  letter-spacing: 1px;
+}
+
+.bottom_icondiv {
+  background-color: #faddcb;
+  color: #f8640a;
+  border-radius: 80%;
+  height: fit-content;
+  width: fit-content;
+  padding: 2%;
+}
 
 @media screen and (max-width: 850px) {
-    .about{
-        flex: 2;
-    }
-    .about h2{
-        font-size: 15px;
-    }
-    
-    .about p{
-        font-size: 8px;
-        letter-spacing: 0;
-    }
-    .getStarted button{
-        width: 70%;
-        height: 30px;
-        font-size: 18px;
-    }
-    .getStarted button:hover{
-         font-size: 20px;
-         font-weight: 700;
-         letter-spacing:1px;
-         padding:1%;
-    }
-    
-   .imgdiv{
+  .about {
     flex: 2;
-   }
-   .imgdiv img{
+  }
+  .about h2 {
+    font-size: 15px;
+  }
+
+  .about p {
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+  .getStarted button {
+    width: 70%;
+    height: 30px;
+    font-size: 18px;
+  }
+  .getStarted button:hover {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 1%;
+  }
+
+  .imgdiv {
+    flex: 2;
+  }
+  .imgdiv img {
     width: 100%;
-    
-   }
+  }
+  .bottom_one p {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .bottom_one h4 {
+    font-size: 18px;
+  }
+  .bottom_icon {
+    font-size: 18px;
+  }
 }
-@media screen and (max-width:550px) {
-    .about_main{
-        margin-top: 20px;
-        height: 400px;
-        flex-direction: column;
-        gap: 20px;
+@media screen and (max-width: 550px) {
+  .about_main {
+    margin-top: 20px;
+    height: 400px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about h2 {
+    font-size: 15px;
+  }
 
-    }
-    .about h2{
-        font-size: 15px;
-    }
-    
-    .about p{
-        font-size: 8px;
-        letter-spacing:0;
-    }
-    
-    .imgdiv img{
-        height: 200px;
+  .about p {
+    font-size: 8px;
+    letter-spacing: 0;
+  }
 
-    }
+  .imgdiv img {
+    height: 200px;
+  }
 
+  .bottom_main {
+    width: 100%;
+    flex-direction: column;
+  }
+  .bottom_one {
+    width: 80%;
+    height: 50px;
+    padding: 1.5%;
+    border: 1px solid rgb(167, 166, 166);
+  }
+
+  .bottom_one p {
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+  .bottom_one h4 {
+    font-size: 16px;
+  }
+  .bottom_icon {
+    font-size: 12px;
+  }
 }
 
+@media screen and (max-width: 250px) {
+  .about_main {
+    margin-top: 20px;
+    height: 300px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about h2 {
+    font-size: 12px;
+  }
 
-@media screen and (max-width:250px) {
-    .about_main{
-        margin-top: 20px;
-        height: 300px;
-        flex-direction: column;
-        gap: 20px;
+  .about p {
+    font-size: 5px;
+    letter-spacing: 0;
+  }
+  .getStarted button {
+    font-size: 10px;
+    border-radius: 10px;
+    width: 60%;
+    height: fit-content;
+  }
 
-    }
-    .about h2{
-        font-size: 12px;
-    }
-    
-    .about p{
-        font-size: 5px;
-        letter-spacing: 0;
-    }
-    .getStarted button{
-        font-size: 10px;
-        border-radius: 10px;
-        width: 60%;
-        height: fit-content;
-    }
-    
-    .imgdiv img{
-        height: 120px;
+  .imgdiv img {
+    height: 120px;
+  }
 
-    }
+  .bottom_main {
+    width: 100%;
+    flex-direction: column;
+  }
 
+  .bottom_one {
+    width: 90%;
+    height: 50px;
+    padding: 1%;
+    border: 1px solid rgb(167, 166, 166);
+  }
+  .bottom_one p {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .bottom_one h4 {
+    font-size: 12px;
+  }
+  .bottom_icon {
+    font-size: 10px;
+  }
 }
