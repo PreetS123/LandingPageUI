@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "../Styles/About.module.css";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import {BsMenuAppFill,BsFillPersonFill} from 'react-icons/bs';
+import img_location from '../Assets/Group 1215.svg';
+import img_person from '../Assets/Group 1216.svg';
+import img_service from '../Assets/Group 1217.svg';
+import img_girl from '../Assets/Illustration 1.svg';
 
 
 export const About = () => {
@@ -27,7 +29,7 @@ export const About = () => {
       </div>
 
       <div className={styles.imgdiv}>
-        <img src="https://michaellegedza.github.io/LaslesVPN/assets/svg/intro-img.svg" alt="LaslesVPN" />
+        <img src={img_girl} alt="LaslesVPN" />
       </div>
     </div>
 
@@ -44,7 +46,8 @@ export const About = () => {
       <div className={styles.bottom_main}>
         <div className={styles.bottom_one}>
         <div className={styles.bottom_icondiv}>
-          <FaMapMarkerAlt className={styles.bottom_icon} />
+        
+          <img src={img_location} alt="LOCATION" />
         </div>
         <div>
           <h4>30+</h4>
@@ -54,7 +57,8 @@ export const About = () => {
           
         <div className={styles.bottom_one}>
         <div className={styles.bottom_icondiv}>
-          <BsMenuAppFill className={styles.bottom_icon}/>
+          
+          <img src={img_service} alt="" />
         </div>
         <div>
           <h4>50+</h4>
@@ -64,7 +68,7 @@ export const About = () => {
 
         <div className={styles.bottom_one}>
         <div className={styles.bottom_icondiv}>
-          <BsFillPersonFill className={styles.bottom_icon}/>
+          <img src={img_person} alt="" />
         </div>
         <div>
           <h4>90+</h4>

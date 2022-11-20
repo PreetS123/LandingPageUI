@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from '../Styles/Pricing.module.css';
-import { FaCheck } from "react-icons/fa";
+import img_free from '../Assets/Free.svg';
+import img_tick from '../Assets/Group 1120.svg';
+
+
 
 export const Pricing = () => {
   return (
@@ -42,7 +45,7 @@ const PricingOneDiv1=()=>{
     <>
     <div className={styles.price1}>
        <div>
-        <img src="https://laslesvpn-landing.netlify.app/images/free-plan.svg" alt="Today Or Never" />
+        <img src={img_free} alt="Today Or Never" />
        </div>
        <div className={styles.plan}>
         <h2>Free Plan</h2>
@@ -51,7 +54,7 @@ const PricingOneDiv1=()=>{
               freeplan.map(item=>{
                 return (
                   <div key={item.id} className={styles.offerdiv}>
-                   <FaCheck className={styles.tick}/>
+                   <img src={img_tick} alt="" />
                     <p>{item.plan}</p>
                   </div>
                 )
@@ -102,7 +105,7 @@ const PricingOneDiv2=()=>{
     <>
     <div className={styles.price1}>
        <div>
-        <img src="https://laslesvpn-landing.netlify.app/images/free-plan.svg" alt="Today Or Never" />
+        <img src={img_free} alt="Today Or Never" />
        </div>
        <div className={styles.plan}>
         <h2>Standard Plan</h2>
@@ -111,7 +114,7 @@ const PricingOneDiv2=()=>{
               standard.map(item=>{
                 return (
                   <div key={item.id} className={styles.offerdiv} >
-                     <FaCheck className={styles.tick}/>
+                    <img src={img_tick} alt="" />
                     <p>{item.plan}</p>
                   </div>
                 )
@@ -166,7 +169,7 @@ const PricingOneDiv3=()=>{
     <>
     <div className={styles.price1}>
        <div>
-        <img src="https://laslesvpn-landing.netlify.app/images/free-plan.svg" alt="Today Or Never" />
+        <img src={img_free} alt="Today Or Never" />
        </div>
        <div className={styles.plan}>
         <h2>Premium Plan</h2>
@@ -175,7 +178,7 @@ const PricingOneDiv3=()=>{
               premium.map(item=>{
                 return (
                   <div key={item.id} className={styles.offerdiv}>
-                     <FaCheck className={styles.tick}/>
+                     <img src={img_tick} alt="" />
                     <p>{item.plan}</p>
                   </div>
                 )
@@ -184,7 +187,7 @@ const PricingOneDiv3=()=>{
           </div>
        </div>
        <div className={styles.price_last}>
-        <h2>$12 <span>/ mo</span></h2>
+        <h2>$12 <span>/ month</span></h2>
         <div>
           <button>Select</button>
         </div>

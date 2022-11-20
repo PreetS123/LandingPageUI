@@ -1,6 +1,9 @@
 import React from 'react';
-import {AiFillCheckCircle} from 'react-icons/ai';
 import styles from '../Styles/Features.module.css';
+import img_tick from '../Assets/Group 1120.svg'
+import img_girl2 from '../Assets/Illustration 2.svg';
+
+
 
 export const Features = () => {
 
@@ -26,7 +29,7 @@ export const Features = () => {
     <>
        <div className={styles.features_main}>
         <div className={styles.features_imgbx}>
-          <img  src='https://laslesvpn-landing.netlify.app/images/illustration-2.svg' alt='OUR WEBSITE FEATURES AUR HERE' />
+          <img  src={img_girl2} alt='OUR WEBSITE FEATURES AUR HERE' />
         </div>
         <div className={styles.features_second}>
           <h2>We Provide Many
@@ -38,7 +41,8 @@ export const Features = () => {
                 features.map(item=>{
                   return (
                     <div key={item.id} className={styles.features_content}>
-                          <AiFillCheckCircle style={{color:'green',fontSize:'8px'}}/>
+                          {/* <AiFillCheckCircle style={{color:'green',fontSize:'8px'}}/> */}
+                          <img src={img_tick} alt="logo" />
                           <p>{item.content}</p>
                     </div>
                   )
