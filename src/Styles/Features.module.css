@@ -1,0 +1,34 @@
+.features_main{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.features_imgbx{
+    flex: 4;
+}
+.features_imgbx img{
+    width: 100%;
+}
+
+.features_second{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5%;
+    margin: 5px 15px;
+    
+}
+.features_second h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.features_content{
+    display: flex;
+    gap: 1%;
+    align-items: center;
+
+}
