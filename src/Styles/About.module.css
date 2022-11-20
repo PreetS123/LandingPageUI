@@ -160,6 +160,7 @@
     width: 100%;
     height: fit-content;
     flex-direction: column;
+    gap: 5px;
   }
   .bottom_one {
     width: 80%;
@@ -210,6 +211,7 @@
     width: 100%;
     height: fit-content;
     flex-direction: column;
+    gap: 5px;
   }
 
   .bottom_one {
