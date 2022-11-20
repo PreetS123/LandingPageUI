@@ -1,31 +1,28 @@
 import React from 'react';
-import { FaFacebookF,FaInstagram,FaTwitter } from "react-icons/fa";
+// import { FaFacebookF,FaInstagram,FaTwitter } from "react-icons/fa";
 import styles from '../Styles/Footer.module.css';
+import img_logo from '../Assets/Logo.svg';
+import img_facebook from '../Assets/Facebook.svg';
+import img_insta from '../Assets/Instagram.svg';
+import img_twitter from '../Assets/Twitter.svg';
 
 
 export const Footer = () => {
-    const iconStyle={
-        backgroundColor: '#fff',
-        width:'28px',
-        height:'28px',
-        padding:'4%',
-        borderRadius:"50px"
-    }
+    
     
   return (
     <div className={styles.footer_big} >
     <div className={styles.footer_main} >
         <div className={styles.footer_first}>
             <div>
-            <img src='https://laslesvpn-landing.netlify.app/images/logo.svg' alt='LaslesVPN'/>
+            <img src={img_logo} alt='LaslesVPN'/>
              <div>
                 <p>LaslesVPN is a private virtual network that has unique features and has high security.</p>
              </div>
              <div className={styles.socialDiv}>
-            
-                   <FaFacebookF style={iconStyle} />
-                    <FaInstagram style={iconStyle}/>
-                    <FaTwitter style={iconStyle}/>
+                <img src={img_facebook} alt="" />
+                <img src={img_insta} alt="" />
+                <img src={img_twitter} alt="" />
              </div>
              <p>© 2020 LaslesVPN</p>
             </div>

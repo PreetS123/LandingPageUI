@@ -13,7 +13,7 @@
 }
 .footer_first{
     width: 60%;
-    
+     padding: 2%;
 }
 
 .socialDiv{
@@ -23,6 +23,9 @@
     justify-content: space-around;
     gap: 10px;
     color: #f8640a;
+}
+.socialDiv img{
+    height: 50px;
 }
 
 
