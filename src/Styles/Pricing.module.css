@@ -68,7 +68,7 @@
 
 .price_last{
  width: 100%;
- margin-top: 30px;
+ margin-top: 25px;
 }
 .price_last span{
      color: gray;
@@ -122,6 +122,9 @@
    p{
     font-size: 12px;
    }
+   .price_last{
+    margin-top: 15px;
+   }
 
   }
 
@@ -152,11 +155,17 @@
         padding: 1%;
         text-align: center;
        }
-       .price1 img{
-        height: 50px;
-       }
+       
        p{
         font-size: 10px;
        }
-      
+       .offerdiv{
+        height: fit-content;
+       }
+       .offerdiv img{
+          height: 20px;
+       }
+       .price_last{
+        margin-top: 5px;
+       }
   }
