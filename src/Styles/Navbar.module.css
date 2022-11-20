@@ -5,6 +5,7 @@
   min-height: 80px;
   justify-content: space-evenly;
   align-items: center;
+  position: sticky;
   /* border: 1px solid red; */
   /* padding: 1%; */
 }
