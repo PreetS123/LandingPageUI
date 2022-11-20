@@ -8,12 +8,14 @@
     align-items: center;
     
 }
+
 .let{
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 500;
     color: rgb(129, 129, 127);
 }
+
 .price_main h2{
     font-weight: 900;
     text-align: center;
@@ -63,11 +65,7 @@
      line-height: 8px;
 }
 
-.tick{
-    color: green;
-    width: 18px;
-   
-}
+
 .price_last{
  width: 100%;
  margin-top: 30px;
@@ -124,9 +122,7 @@
    p{
     font-size: 12px;
    }
-   .tick{
-    font-size: 12px;
-   }
+
   }
 
   @media screen and (max-width: 550px) {
@@ -162,7 +158,5 @@
        p{
         font-size: 10px;
        }
-       .tick{
-        font-size: 10px;
-       }
+      
   }
