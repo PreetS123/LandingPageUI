@@ -46,12 +46,12 @@ const PricingOneDiv1=()=>{
        </div>
        <div className={styles.plan}>
         <h2>Free Plan</h2>
-          <div>
+          <div className={styles.plan_text}>
             {
               freeplan.map(item=>{
                 return (
                   <div key={item.id} className={styles.offerdiv}>
-                   <p> <FaCheck className={styles.tick}/></p>
+                   <FaCheck className={styles.tick}/>
                     <p>{item.plan}</p>
                   </div>
                 )
@@ -106,12 +106,12 @@ const PricingOneDiv2=()=>{
        </div>
        <div className={styles.plan}>
         <h2>Standard Plan</h2>
-          <div>
+          <div className={styles.plan_text}>
             {
               standard.map(item=>{
                 return (
                   <div key={item.id} className={styles.offerdiv} >
-                    <p> <FaCheck className={styles.tick}/></p>
+                     <FaCheck className={styles.tick}/>
                     <p>{item.plan}</p>
                   </div>
                 )
@@ -170,12 +170,12 @@ const PricingOneDiv3=()=>{
        </div>
        <div className={styles.plan}>
         <h2>Premium Plan</h2>
-          <div>
+          <div className={styles.plan_text}>
             {
               premium.map(item=>{
                 return (
                   <div key={item.id} className={styles.offerdiv}>
-                    <p> <FaCheck className={styles.tick}/></p>
+                     <FaCheck className={styles.tick}/>
                     <p>{item.plan}</p>
                   </div>
                 )

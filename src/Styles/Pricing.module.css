@@ -26,6 +26,7 @@
     align-items: center; 
 }
 .price1{
+    width: 300px;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -50,23 +51,33 @@
     justify-content: space-around;
     align-items: center;
 }
+.plan_text{
+    height: 200px;
+    
+}
 
 .offerdiv{
     display: flex;
-  
+     gap: 20px;
+     align-items: center;
+     line-height: 8px;
 }
+
 .tick{
     color: green;
-    font-size: 15px;
+    width: 18px;
+   
 }
 .price_last{
  width: 100%;
+ margin-top: 30px;
 }
 .price_last span{
      color: gray;
      font-weight: 400;
 }
 .price_last button {
+   
     font-size: 20px;
     font-weight: 700;
     padding: 2%;
@@ -102,6 +113,7 @@
     gap: 10px;
    }
    .price1{
+    width: 250px;
     height: 600px;
     gap:10px;
     padding: 2%;
