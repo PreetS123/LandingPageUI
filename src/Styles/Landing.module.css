@@ -1,0 +1,23 @@
+.global_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.global_first{
+    width: 30%;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+}
+
+
+.mapimg{
+    width: 100%;
+}
+
+.mapimg img{
+    width: 100%;
+}
