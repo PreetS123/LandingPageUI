@@ -7,7 +7,6 @@ import { Pricing } from './Pages/Pricing'
 export const Landing = () => {
   return (
     <>
-     <Navbar/>
      <About />
      <Features/>
       <Pricing/>
