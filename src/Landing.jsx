@@ -9,6 +9,7 @@ import img_netflix from './Assets/Mask Group.svg';
 import img_amazon from './Assets/Mask Group (2).svg';
 import img_discord from './Assets/Mask Group (3).svg';
 import img_spotify from './Assets/Mask Group (4).svg';
+import { Testimonial } from './Pages/Testimonial';
 
 
 export const Landing = () => {
@@ -18,6 +19,7 @@ export const Landing = () => {
      <Features/>
       <Pricing/>
       <GlobalNetwork   />
+      <Testimonial/>
     </>
   )
 }

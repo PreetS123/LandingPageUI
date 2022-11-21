@@ -1,0 +1,81 @@
+.test_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.test_head{
+    padding: 1%;
+    width: 35%;
+    text-align: center;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+    color: rgb(65, 64, 64);
+}
+.test_carousel{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+
+.product_cont{
+    padding: 0 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.test_btn{
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 1%;
+}
+.pre_btn,.nxt_btn{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: none;
+   background:#fff;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   color: #f8640a;
+}
+.pre_btn:hover,.nxt_btn:hover{
+    background-color: #f8640a;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.arrow{
+    width: 18px;
+    text-align: center;
+    padding: 1%;
+}
+
+
+@media screen and (max-width:850px){
+   .test_head{
+    padding: 1%;
+    width: 60%;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+   } 
+}
+
+@media screen and (max-width:550px){
+    .test_head{
+        width: 80%;
+        letter-spacing: 1px;
+        font-weight: 200;
+        padding: 2%;
+       } 
+       .test_btn{
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+       }
+}
