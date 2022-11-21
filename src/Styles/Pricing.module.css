@@ -111,19 +111,25 @@
     gap: 10px;
    }
    .price1{
-    width: 250px;
-    height: 600px;
-    gap:10px;
-    padding: 2%;
+    /* width: 250px; */
+    height: 500px;
+    gap:8px;
+    padding: 1%;
+    font-size: 10px;
    }
    .price1 img{
     height: 80px;
+    
    }
-   p{
-    font-size: 12px;
+   .offerdiv{
+    height: fit-content;
    }
+   .offerdiv img{
+      height: 20px;
+   }
+   
    .price_last{
-    margin-top: 15px;
+    margin-top: 10px;
    }
 
   }
