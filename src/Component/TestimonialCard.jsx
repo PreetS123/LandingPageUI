@@ -16,12 +16,8 @@ export const TestimonialCard=({props})=> {
           </div>
         </div>
         <div className={styles.review}>
-          <div className={styles.reviewPoints}>
-            <p>4.5</p>
-          </div>
-          <div className={styles.reviewStar}>
-            <AiFillStar />
-          </div>
+               <p className={styles.reviewPoints}>4.5</p>
+               <AiFillStar className={styles.reviewStar} />
         </div>
       </div>
       <div className={styles.userComments}>
