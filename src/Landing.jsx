@@ -4,8 +4,8 @@ import { Features } from './Pages/Features';
 import { Pricing } from './Pages/Pricing';
 import img_map from './Assets/Huge Global.svg';
 import styles from './Styles/Landing.module.css';
-import img_netflix from './Assets/Mask Group (1).svg';
-import img_reddit from './Assets/Mask Group (2).svg';
+import img_reddit from './Assets/Mask Group (1).svg';
+import img_netflix from './Assets/Mask Group.svg';
 import img_amazon from './Assets/Mask Group (2).svg';
 import img_discord from './Assets/Mask Group (3).svg';
 import img_spotify from './Assets/Mask Group (4).svg';
@@ -48,12 +48,27 @@ const GlobalNetwork=()=>{
 const OurPatners=()=>{
   return (
     <>
-   <div>
+   <div className={styles.patner_div}>
+
+      <div className={styles.partner_imgdiv} >
       <img src={img_netflix} alt="" />
+      </div>
+
+      <div className={styles.partner_imgdiv}>
       <img src={img_reddit} alt="" />
+      </div>
+
+      <div className={styles.partner_imgdiv}>
       <img src={img_amazon} alt="" />
+      </div>
+
+      <div className={styles.partner_imgdiv}>
       <img src={img_discord} alt="" />
+      </div>
+
+      <div className={styles.partner_imgdiv}>
       <img src={img_spotify} alt="" />
+      </div>
    </div>
     </>
   )
